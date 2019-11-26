@@ -1,0 +1,45 @@
+@import "https://fonts.googleapis.com/css?family=Calistoga&display=swap";
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    background: #282a36;
+    font-family: 'Calistoga', cursive;
+}
+
+header {
+    padding: 32px;
+    border: 2px dashed red;
+    background: rgba(0,0,0,0.1);
+}
+
+header div {
+    text-align: center;
+}
+
+header div a{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 16px;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+header div a:hover {
+    color: #50fa7b;
+    transition: 500ms;
+}
+
+#wrapper {
+    text-align: center;
+    padding: 32px;
+}
+
+#wrapper img {
+    border-radius: 50%;
+}
