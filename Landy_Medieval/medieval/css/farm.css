@@ -1,0 +1,64 @@
+body {
+    background: grey;
+    color: khaki;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.item{
+    padding: 10px;
+    border: 1px solid lightsalmon;
+    background: salmon;
+    font-size: .78rem;
+}
+
+#owner{
+    border: 1px solid rgb(190, 212, 230);
+    border-radius: 3px;
+    grid-column: 1 / span 5;
+}
+
+#workers{
+    border: 1px solid rgb(190, 212, 230);
+    border-radius: 3px;
+    text-align: center;
+}
+
+#mercado{
+    border: whitesmoke solid 1px;
+    border-radius: 3px;
+    text-align: center;    
+}
+
+#prices{
+    border: whitesmoke solid 1px;
+    border-radius: 3px;
+    text-align: center;    
+}
+
+#pecuaria, #agricultura, #animais, #plantacao{
+    display: none;
+}
+
+#produtos{
+    border: 1px solid rgb(190, 212, 230);
+    border-radius: 3px;
+}
+
+#climate{
+    border: 2px solid rgb(190,212,230);
+    border-radius: 8px;
+    text-align: center;
+    background: rgba(0, 0,0, 0);
+}
+
+table, th, td{
+    width: 95%;
+    text-align: left;
+    padding: 0.4rem;
+}

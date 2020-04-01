@@ -1,0 +1,1 @@
+A inclusão de trabalhadores nas tarefas não está fazendo a contagem de limites corretamente.

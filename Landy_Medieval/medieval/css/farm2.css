@@ -1,0 +1,48 @@
+main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 1rem;
+    text-align: center;
+}
+
+#climate{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: gray solid 1px;
+}
+
+aside, section {
+    border: 1px solid gray;
+    padding: .5rem;
+    text-align: center;
+}
+
+#player {
+    background-color: rgb(180, 180, 180);
+    box-shadow: 3px 3px rgba(138, 138, 138, 0.2);
+}
+
+#pecuaria, #agricultura, #animais, #plantacao{
+    display: none;
+}
+
+table, tr, td {
+    text-align: left;
+}
+
+#works{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: .5rem;
+    border: none;
+}
+
+#ocioso{
+    border: 1px solid gray;
+}
+.work{
+    border: 1px solid gray;
+    grid-template-rows: 3fr;
+    padding: .7rem;
+    text-align: center;
+}
